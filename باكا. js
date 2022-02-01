@@ -1,0 +1,11 @@
+case "باكا":
+				
+				
+					jds = []
+					const jokeq = groupMembers
+					const xoxq = groupMembers
+					const hexhexq = jokeq[Math.floor(Math.random() * jokeq.length)]
+					teks = `باكا،!! @${hexhexq.jid.split( @ )[0]}`
+					jds.push(hexhexq.jid)
+					mentions(teks, jds, true)
+					break
